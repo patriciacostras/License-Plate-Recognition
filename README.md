@@ -1,87 +1,45 @@
 License Plate Recognition
-Project Description
+
+Project Description:
+
 The Smart View Access system enables license plate recognition for managing access to a company’s parking lot. By using cameras connected to a Raspberry Pi and integrating with Arduino modules, the project delivers a comprehensive solution for parking and office access control.
 
-Technologies Used
+Technologies Used:
+
 Hardware:
+
 Raspberry Pi 4 Model B
 Arduino Uno R3
 Raspberry Pi Camera Module Version 2
 LEDs and buttons for signaling
+
 Software:
+
 Python for image processing and API communication
 MySQL for database management
 React for the web interface
 Android Studio for the mobile application
 
+Parking Lot Access:
 
-README for License Plate Recognition Project
-License Plate Recognition
-Project Description
-The Smart View Access system enables license plate recognition for managing access to a company’s parking lot. By using cameras connected to a Raspberry Pi and integrating with Arduino modules, the project delivers a comprehensive solution for parking and office access control.
-
-Technologies Used
-Hardware:
-Raspberry Pi 4 Model B
-Arduino Uno R3
-Raspberry Pi Camera Module Version 2
-LEDs and buttons for signaling
-Software:
-Python for image processing and API communication
-MySQL for database management
-
-Features
-1. Parking Lot Access:
 License plate recognition using a camera connected to Raspberry Pi.
 Real-time data sent to a cloud server via APIs.
 Grant or deny access based on the license plate and parking slot availability.
 Visual feedback with LEDs:
 Green for authorized access.
 Red for denied access.
-
-
-README for License Plate Recognition Project
-License Plate Recognition
-Project Description
-The Smart View Access system enables license plate recognition for managing access to a company’s parking lot. By using cameras connected to a Raspberry Pi and integrating with Arduino modules, the project delivers a comprehensive solution for parking and office access control.
-
-Technologies Used
-Hardware:
-Raspberry Pi 4 Model B
-Arduino Uno R3
-Raspberry Pi Camera Module Version 2
-LEDs and buttons for signaling
-Software:
-Python for image processing and API communication
-MySQL for database management
-React for the web interface
-Android Studio for the mobile application
-Features
-1. Parking Lot Access:
-License plate recognition using a camera connected to Raspberry Pi.
-Real-time data sent to a cloud server via APIs.
-Grant or deny access based on the license plate and parking slot availability.
-Visual feedback with LEDs:
-Green for authorized access.
-Red for denied access.
-2. Office Entry Access:
-QR code scanning for employee authentication.
-Access granted or denied via Arduino-based signaling (green/red LEDs).
-Logs entry and exit times to calculate hours worked.
-3. Administrator Interface:
-Manage employee data and assign parking slots.
-Generate graphical reports on employee activity and parking usage.
-Assign office desks based on team requirements.
-System Architecture
-The project uses a Client-Server architecture:
 
 Setup Instructions
+
 Hardware Requirements:
+
 Raspberry Pi 4 Model B.
 Camera Module (compatible with Raspberry Pi).
 LEDs and breadboard for signaling.
 Internet connection for cloud communication.
+
 Software Requirements:
+
 Python 3.9+ installed on Raspberry Pi.
 MySQL database (cloud-hosted or local).
 
