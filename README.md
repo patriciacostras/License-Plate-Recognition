@@ -24,16 +24,22 @@ Technologies Used:
 
 Python:
 Core programming language used for image processing, database communication, and hardware interaction.
+
 OpenCV:
 For image preprocessing (grayscale conversion, thresholding) and license plate detection.
+
 PyTesseract:
 Optical Character Recognition (OCR) tool for extracting text from images.
+
 MySQL:
 Database used to store and manage vehicle details, access logs, and parking availability.
+
 Raspberry Pi:
 Hardware platform for running the system and interfacing with peripherals like cameras and GPIO components.
+
 GPIO (General Purpose Input/Output):
 Used to control LEDs and read button inputs for physical interaction.
+
 PiCamera:
 Captures real-time images of license plates for recognition.
 
