@@ -2,7 +2,7 @@ License Plate Recognition
 
 Project Description:
 
-The Smart View Access system enables license plate recognition for managing access to a company’s parking lot. By using cameras connected to a Raspberry Pi and integrating with Arduino modules, the project delivers a comprehensive solution for parking and office access control.
+The Smart View Access system enables license plate recognition for managing access to a company’s parking lot. By using cameras connected to a Raspberry Pi, the project delivers a comprehensive solution for parking and office access control.
 
 Technologies Used:
 
